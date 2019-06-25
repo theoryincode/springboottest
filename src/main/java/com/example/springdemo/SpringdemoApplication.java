@@ -48,7 +48,7 @@ class VersionInfoController {
      
     @RequestMapping(value = "/springdemo")
         public String helloWorld() {
-                String response = "Hello user from branch ! " + new Date();
+                String response = "Hello user from branch agin ! " + new Date();
               //  LOG.log(Level.INFO, "/elkdemo - > " + response);
 
                 return response;
